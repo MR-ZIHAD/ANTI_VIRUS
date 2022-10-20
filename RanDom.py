@@ -74,19 +74,19 @@ logo =f"""
  \033[1;95m         ___ ___       ___  _       __ 
  \033[1;95m /\  |\ | |   |    \  / |  |_) | | (_  
  \033[1;95m/--\ | \| |  _|_    \/ _|_ | \ |_| __)   
-                                 (>Welcome ANTI_VIRUS>)                                                                                                                                       
+           (>Welcome ANTI_VIRUS>)                                                                                                                                       
  '\033[1;33m'╭──────────•◈•──────────╮
- '\033[1;33m'-] TOOLS     :\031[1;32m RanDOM 
- '\033[1;33m'[-] VERSION   :\031[1;32m V.1.0.6
- '\033[1;33m'[-] AUTHOR    :\030[1;32m RAFI-VAU
- '\033[1;33m'[-] STATUS   :\030[1;32m PREMIUM
- '\033[1;33m'[-] NETWORK   :\030[1;32m 2G,3G,4G
- '\033[1;33m'[-] GITHUB    :\031[1;32m MR-ZIHAD
- '\033[1;33m'[-] TEAM      :\034[1;32m ANTI_VIRUS
+ '\033[1;33m'-] TOOLS      :  RanDOM 
+ '\033[1;33m'[-] VERSION   :  V.1.0.3
+ '\033[1;33m'[-] AUTHOR    :  RAFI-VAU
+ '\033[1;33m'[-] STATUS    :  PREMIUM
+ '\033[1;33m'[-] NETWORK   :  2G,3G,4G
+ '\033[1;33m'[-] GITHUB    :  MR-ZIHAD
+ '\033[1;33m'[-] TEAM      :  ANTI_VIRUS
  '\033[1;33m'╰──────────•◈•──────────╯ 
 
 \033[1;96m♧♧♧♧♧♧♧♧♧♧\033[1;91mWhatsapp\033[1;96m♧♧♧♧♧♧♧♧♧♧▒▒▒▒▒▒▒        
-\033[1;91m:》》》\033[1;93m+8801914436101\033[1;91m《《《▒▒▒▒▒▒▒▒▒▒▒
+\033[1;91m:》》》\033[1;93m+8801842827520\033[1;91m《《《▒▒▒▒▒▒▒▒▒▒▒
 \033[1;97m==============================================================="""
 os.system("clear")
 print(logo)
@@ -95,7 +95,7 @@ def sex():
   id = "|".join(uuid)
   print("\n\n\x1b[32;1m  YOUR KEY : \033[94m"+id) 
   try: 
-    httpCaht = requests.get("https://github.com/MR-ZIHAD/Approved").text 
+    httpCaht = requests.get("https://github.com/MR-ZIHAD/Approved/blob/main/Approved.txt").text 
     if id in httpCaht: 
       print("\033[92m  YOUR KEY IS ACTIVE√RM˜˜........\033[97m")
       msg = str(os.geteuid()) 
